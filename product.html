@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greendan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+     <!-- -------------------navbar------------------------>
+     <nav class="bg-green-100 p-4 flex items-center justify-between shadow-2xl z-10 sticky top-0">
+        <h1 class="text-3xl uppercase font-semibold">Greendan</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+            class="h-8 w-8 cursor-pointer md:hidden flex justify-between">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+        <ul class="flex gap-5 text-2xl hidden md:flex">
+            <li>
+                <a href="index.html" class="hover:underline">Home</a>
+            </li>
+            <li>
+                <a href="product.html" class="hover:underline">Product</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:underline">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ------------search bar----------------- -->
+    <div class="flex flex-col justify-center items-center">
+        <h2 class="text-3xl font-semibold uppercase p-6 text-center">our Product</h2>
+        <input type="text" placeholder="Search for he Product.." class="border-solid border-black border-2 w-10/12 p-3">
+    </div>
+    <div class=" p-6 m-6  sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-6 grid justify-center items-center">
+        <img src="./img/p6.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1" >
+        <img src="./img/p2.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p3.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p4.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p5.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p6.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p2.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+        <img src="./img/p5.jpg" alt="" class="my-6 h-96 w-72 cursor-pointer transition-all hover:shadow-2xl transform hover:-translate-y-1">
+    </div>
+
+     <!-- -------------------footor------------------ -->
+     <div class="bg-green-100 p-5">
+        <h2 class="text-3xl font-semibold m-5">Greendan</h2>
+        <p class="m-5"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, nihil. Dolorum ducimus similique
+            dolorem deleniti consectetur reiciendis a rerum.</p>
+            <p class="m-5">@ 2021 Greendan.com</p>
+    </div>
+
+    
+</body>
+</html>
